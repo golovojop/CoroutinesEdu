@@ -57,7 +57,7 @@ suspend fun mySuspentionProc(): Int {
             print("localResult is $localResult \n")
             Thread.sleep(500)
             cont.resumeWith(Result.success(localResult))
-            cont.resume(localResult)
+//            cont.resume(localResult)
         }
     }
 
