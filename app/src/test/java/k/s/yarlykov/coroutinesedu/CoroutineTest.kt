@@ -147,3 +147,8 @@ fun launch(context: CoroutineContext = EmptyCoroutineContext, block: suspend () 
     })
 
 }
+
+fun testContext() {
+    val rrr : AbstractCoroutineContextElement? = null
+
+}
